@@ -1,16 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="./css/main.css">
     <!-- boostTrap css -->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 
 </head>
+
 <body>
-    <h1 class="p-5">Hola</h1>
+    <nav class="navbar navbar-expand-lg bg-primary p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white fs-3 fw-bold" href="#">ViajaGuarin</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Precios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button type="button" class="btn btn-light">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid d-flex justify-content-center bg-warning">
+        <h3 class="my-2" style="color: #000;">¿Que esperas para viajar?</h3>
+    </div>
+
+    <!-- Fichas -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 my-5">
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/08/78/f2/786293-pool.jpg?w=300&h=300&s=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Hotel Las Américas Casa de Playa</h5>
+                    <p class="card-text">
+                        El Hotel Las Américas Casa de Playa es un complejo tropical situado frente al Mar Caribe en el norte de Cartagena de Indias. Ofrece 2 piscinas, los bares La Isla y El Chicho, campo de minigolf, cancha de tenis y el Club del “Capitán Estrella” para niños. Hay boutiques, almacén de joyas y WiFi gratuito en todas las zonas.
+                    </p>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="button">Reservar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e4/12/5e/estelar-playa-manzanillo.jpg?w=300&h=300&s=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Hotel Estelar Playa Manzanillo</h5>
+                    <p class="card-text">
+                        El Hotel ESTELAR Playa Manzanillo tiene como único objetivo brindar un lujoso equipamiento todo incluido frente a las paradisíacas playas de la Bahía de Manzanillo del Mar y cerca de la cosmopolita ciudad de Cartagena de Indias, con un diseño contemporáneo y un ambiente especialmente plácido.
+                    </p>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="button">Reservar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/51/c4/69/superior-room.jpg?w=300&h=300&s=1" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Hotel Cartagena Plaza</h5>
+                    <p class="card-text">
+                        A sólo 10 minutos del aeropuerto internacional Rafael Núñez y 5 minutos del centro histórico, bordeado por la más encantadora zona de playa, mar y sol de la ciudad de Cartagena. 311 habitaciones Standard, Superiores, Suites y Junior Suites; píscina panorámica en el piso 18 con la mejor vista hacia la ciudad.
+                    </p>
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary" type="button">Reservar</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 <!-- Para jQuery -->
