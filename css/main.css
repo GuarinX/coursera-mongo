@@ -1,8 +1,9 @@
 .jumbotron{
-    background-color: yellow;
-    color: black;
 }
 
-.item-footer{
+/* .item-footer{
     color: white;
+} */
+footer{
+    width: 100%;
 }
