@@ -54,3 +54,40 @@
             <button class="btn">Reserva</button>
         </div>
     </div>
+
+
+
+    Info
+     <div class="d-flex flex-wrap p-5 row-sm-1">
+            <div class="p-3">
+                <div class="caracteristica p-3 card">
+                    <h2>Comodidad</h2>
+                    <p>
+                        Amplias habitaciones y servicios
+                        modernos se combinan para brindar un ambiente acogedor
+                        que te hace sentir como en casa desde el momento en que entras.
+                    </p>
+                </div>
+            </div>
+            <div class="p-3">
+                <div class="caracteristica p-3 card">
+                    <h2>Calidad</h2>
+                    <p>
+                        Exquisita artesanía y atención al detalle en cada rincón.
+                        Materiales de primera calidad y acabados impecables que
+                        reflejan un compromiso inquebrantable con la excelencia.
+                    </p>
+                </div>
+            </div>
+            <div class="p-3">
+                <div class="caracteristica p-3 card">
+                    <h2>Ubicación</h2>
+                    <p>
+                        Estratégicamente ubicados, nuestros
+                        espacios ofrecen fácil acceso a los principales lugares de
+                        interés, restaurantes de renombre y opciones de transporte,
+                        asegurando una experiencia enriquecedora y conveniente.
+                    </p>
+                </div>
+            </div>
+        </div>
