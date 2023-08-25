@@ -12,6 +12,9 @@
     color: white;
     font-size: 5rem;
 }
+.navbar{
+    position: fixed;
+}
 
 .iconos{
     padding-right: 5px;
