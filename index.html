@@ -145,7 +145,7 @@
                         especialmente plácido.
                     </p>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        <button type="button" class="btn btn-primary" data-toggle="popover" data-content="Consulta nuestros productos" data-bs-toggle="modal"
                             data-bs-target="#exampleModal" data-bs-whatever="@mdo">Reservar <i
                                 class="bi bi-cart-plus"></i></button>
                     </div>
@@ -175,12 +175,6 @@
             </div>
         </div>
     </div>
-
-    <script>
-        $(function(){
-            $("[data-toggle='tooltip']").tooltip();
-        })
-    </script>
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -255,4 +249,12 @@
 <!-- boostTrap js -->
 <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+
+<!--  -->
+<script>
+    $(function(){
+        $("[data-toggle='tooltip']").tooltip();
+        $("[data-toggle='popover']").popover();
+    })
+</script>
 </html>
