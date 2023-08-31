@@ -105,6 +105,34 @@
             </div>
         </div>
     </center>
+
+    <!-- carousel -->
+    <center>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.pexels.com/photos/3355734/pexels-photo-3355734.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/3355735/pexels-photo-3355735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/7851633/pexels-photo-7851633.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</center>
     <!-- Fichas -->
     <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 my-5">
         <div class="col">
@@ -114,7 +142,8 @@
                         class="card-img-top" style="width: 100%; height: 100%; object-fit: cover;" alt="...">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title " data-toggle="tooltip" data-placement="top" tittle="las primeras reservas cuentan con clases de yoga" >Hotel Las Américas Casa de Playa</h5>
+                    <h5 class="card-title " data-toggle="tooltip" data-placement="top"
+                        tittle="las primeras reservas cuentan con clases de yoga">Hotel Las Américas Casa de Playa</h5>
                     <p class="card-text">
                         El Hotel Las Américas Casa de Playa es un complejo tropical situado frente al Mar Caribe en
                         el norte de Cartagena de Indias. Ofrece 2 piscinas, los bares La Isla y El Chicho, campo de
@@ -137,7 +166,8 @@
                         class="card-img-top" style="width: 100%; height: 100%; object-fit: cover;" alt="...">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title" data-toggle="tooltip" data-placement="top" tittle="las primeras reservas cuentan con clases de yoga" >Hotel Estelar Playa Manzanillo</h5>
+                    <h5 class="card-title" data-toggle="tooltip" data-placement="top"
+                        tittle="las primeras reservas cuentan con clases de yoga">Hotel Estelar Playa Manzanillo</h5>
                     <p class="card-text">
                         El Hotel ESTELAR Playa Manzanillo tiene como único objetivo brindar un lujoso equipamiento
                         todo incluido frente a las paradisíacas playas de la Bahía de Manzanillo del Mar y cerca de
@@ -145,7 +175,8 @@
                         especialmente plácido.
                     </p>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-primary" data-toggle="popover" data-content="Consulta nuestros productos" data-bs-toggle="modal"
+                        <button type="button" class="btn btn-primary" data-toggle="popover"
+                            data-content="Consulta nuestros productos" data-bs-toggle="modal"
                             data-bs-target="#exampleModal" data-bs-whatever="@mdo">Reservar <i
                                 class="bi bi-cart-plus"></i></button>
                     </div>
@@ -159,7 +190,8 @@
                         class="card-img-top" style="width: 100%; height: 100%; object-fit: cover;" alt="...">
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title" data-toggle="tooltip" data-placement="top" tittle="las primeras reservas cuentan con clases de yoga" >Hotel Cartagena Plaza</h5>
+                    <h5 class="card-title" data-toggle="tooltip" data-placement="top"
+                        tittle="las primeras reservas cuentan con clases de yoga">Hotel Cartagena Plaza</h5>
                     <p class="card-text">
                         A sólo 10 minutos del aeropuerto internacional Rafael Núñez y 5 minutos del centro
                         histórico, bordeado por la más encantadora zona de playa, mar y sol de la ciudad de
@@ -252,9 +284,14 @@
 
 <!--  -->
 <script>
-    $(function(){
+    $(function () {
         $("[data-toggle='tooltip']").tooltip();
         $("[data-toggle='popover']").popover();
+        $('.carousel').carousel({
+            interval: 200
+        });
+
     })
 </script>
+
 </html>

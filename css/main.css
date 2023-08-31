@@ -12,6 +12,11 @@ body{
     font-size: 5rem;
 }
 
+
+.carousel{
+    width: 70%;
+
+}
 /* .navbar{
     position: fixebody;
 } */
