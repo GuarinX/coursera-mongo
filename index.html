@@ -62,11 +62,11 @@
         <p>
             <a class="btn btn-primary " data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
                 aria-expanded="false" aria-controls="multiCollapseExample1">
-            Calidad</a>
+                Calidad</a>
             <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
                 data-bs-target="#multiCollapseExample2" aria-expanded="false"
                 aria-controls="multiCollapseExample2">Ubicacion</button>
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
                 data-bs-target="#multiCollapseExample3" aria-expanded="false"
                 aria-controls="multiCollapseExample2">Comodidad</button>
         </p>
@@ -105,42 +105,6 @@
             </div>
         </div>
     </center>
-    <!-- <div class="d-flex flex-wrap p-5 row-sm-1">
-        <div class="p-3">
-            <div class="caracteristica p-3 card">
-                <h2>Comodidad</h2>
-                <p>
-                    Amplias habitaciones y servicios
-                    modernos se combinan para brindar un ambiente acogedor
-                    que te hace sentir como en casa desde el momento en que entras.
-                </p>
-            </div>
-        </div>
-        <div class="p-3">
-            <div class="caracteristica p-3 card">
-                <h2>Calidad</h2>
-                <p>
-                    Exquisita artesanía y atención al detalle en cada rincón.
-                    Materiales de primera calidad y acabados impecables que
-                    reflejan un compromiso inquebrantable con la excelencia.
-                </p>
-            </div>
-        </div>
-        <div class="p-3">
-            <div class="caracteristica p-3 card">
-                <h2>Ubicación</h2>
-                <p>
-                    Estratégicamente ubicados, nuestros
-                    espacios ofrecen fácil acceso a los principales lugares de
-                    interés, restaurantes de renombre y opciones de transporte,
-                    asegurando una experiencia enriquecedora y conveniente.
-                </p>
-            </div>
-        </div>
-    </div> -->
-
-
-
     <!-- Fichas -->
     <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 my-5">
         <div class="col">
@@ -158,7 +122,9 @@
                         almacén de joyas y WiFi gratuito en todas las zonas.
                     </p>
                     <div class="d-grid gap-2">
-                        <button class="btn btn-primary" type="button">Reservar <i class="bi bi-cart-plus"></i></button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" data-bs-whatever="@mdo">Reservar <i
+                                class="bi bi-cart-plus"></i></button>
                     </div>
                 </div>
             </div>
@@ -179,7 +145,9 @@
                         especialmente plácido.
                     </p>
                     <div class="d-grid gap-2">
-                        <button class="btn btn-primary" type="button">Reservar <i class="bi bi-cart-plus"></i></button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" data-bs-whatever="@mdo">Reservar <i
+                                class="bi bi-cart-plus"></i></button>
                     </div>
                 </div>
             </div>
@@ -199,8 +167,38 @@
                         en el piso 18 con la mejor vista hacia la ciudad.
                     </p>
                     <div class="d-grid gap-2">
-                        <button class="btn btn-primary" type="button">Reservar <i class="bi bi-cart-plus"></i></button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" data-bs-whatever="@mdo">Reservar <i
+                                class="bi bi-cart-plus"></i></button>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">¿Deseas Contactarnos?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Ingresa tu correo electronico</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Dejanos un mensaje</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
                 </div>
             </div>
         </div>
