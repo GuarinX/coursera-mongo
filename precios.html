@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/main.css">
     <!-- boostTrap css -->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -26,13 +27,13 @@
                         <a class="nav-link text-white" href="./index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="./nosotros.html">Nosotros</a>
+                        <a class="nav-link text-white" href="./nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="./precios.html">Precios</a>
+                        <a class="nav-link active text-white" aria-current="page" href="./precios.html">Precios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contacto</a>
+                        <a class="nav-link text-white" href="./conacto.html">Contacto</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -48,32 +49,50 @@
             aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="./index.html">Inicio</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Nosotros</li>
+                <li class="breadcrumb-item active" aria-current="page">Precios</li>
             </ol>
         </nav>
-        <span>
-            ViajaGuarin se destaca como la mejor opción para reservar hoteles por una serie de razones convincentes. En
-            primer lugar, su plataforma ofrece una interfaz intuitiva y fácil de usar que permite a los usuarios buscar y
-            comparar una amplia gama de hoteles en destinos de todo el mundo. La plataforma presenta filtros y opciones de
-            búsqueda avanzados que permiten a los viajeros personalizar su búsqueda según sus preferencias específicas, como
-            ubicación, precio, comodidades y tipo de alojamiento. Esta versatilidad en la búsqueda garantiza que los
-            usuarios puedan encontrar el hotel perfecto que se adapte a sus necesidades y presupuesto.
-    
-            Además, ViajaGuarin se distingue por brindar información detallada y precisa sobre cada hotel listado en su
-            plataforma. Los perfiles de los hoteles incluyen descripciones completas, galerías de fotos de alta calidad y
-            reseñas de otros viajeros que han experimentado previamente el alojamiento. Esta abundante información permite a
-            los usuarios tomar decisiones informadas al elegir un hotel y reduce la incertidumbre al saber exactamente qué
-            esperar durante su estadía.
-    
-            Uno de los aspectos más destacados de ViajaGuarin es su dedicación al servicio al cliente. Su equipo de atención
-            al cliente está disponible las 24 horas del día, los 7 días de la semana, para ayudar a los usuarios con
-            cualquier consulta o problema que puedan tener antes, durante o después de su estancia en el hotel. Esta
-            atención personalizada brinda tranquilidad a los viajeros, sabiendo que siempre hay alguien disponible para
-            resolver cualquier problema que pueda surgir.
-        </span>
+
+        <!-- tabla de precios -->
+        <table class="table">
+            <thead class="thead-1">
+                <tr>
+                    <th scope="col">Calidad</th>
+                    <th scope="col">Las Américas</th>
+                    <th scope="col">Estelar Playa</th>
+                    <th scope="col">Cartagena Plaza</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row"><i class="bi bi-star-fill"></i></th>
+                    <td>$100</td>
+                    <td>$150</td>
+                    <td>$200</td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </th>
+                    <td>$200</td>
+                    <td>$250</td>
+                    <td>$270</td>
+                </tr>
+                <tr>
+                    <th scope="row">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </th>
+                    <td>$400</td>
+                    <td>$450</td>
+                    <td>$500</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-
-
+    
 
     <!-- footer -->
     <div class="container-fluid">
