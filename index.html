@@ -13,7 +13,7 @@
 
 </head>
 
-<body> 
+<body>
     <nav class="navbar navbar-expand-lg bg-primary p-3 fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand text-white fs-3 fw-bold" href="#">ViajaGuarin</a>
@@ -50,15 +50,62 @@
     </div>
     <div class="container">
         <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
-        aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item active" aria-current="page">Inicio</li>
-        </ol>
-    </nav>
+            aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Inicio</li>
+            </ol>
+        </nav>
     </div>
     <!-- info -->
-    
-    <div class="d-flex flex-wrap p-5 row-sm-1">
+    <center>
+
+        <p>
+            <a class="btn btn-primary " data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                aria-expanded="false" aria-controls="multiCollapseExample1">
+            Calidad</a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                aria-controls="multiCollapseExample2">Ubicacion</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                aria-controls="multiCollapseExample2">Comodidad</button>
+        </p>
+        <div class="row">
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <div class="card card-body">
+                        <h4>Calidad</h4>
+                        <p>Exquisita artesanía y atención al detalle en cada rincón.
+                            Materiales de primera calidad y acabados impecables que
+                            reflejan un compromiso inquebrantable con la excelencia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                    <div class="card card-body">
+                        <h4>Ubicacion</h4>
+                        <p>Estratégicamente ubicados, nuestros
+                            espacios ofrecen fácil acceso a los principales lugares de
+                            interés, restaurantes de renombre y opciones de transporte,
+                            asegurando una experiencia enriquecedora y conveniente.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="collapse multi-collapse" id="multiCollapseExample3">
+                    <div class="card card-body">
+                        <h4>Comodidad</h4>
+                        <p> Amplias habitaciones y servicios
+                            modernos se combinan para brindar un ambiente acogedor
+                            que te hace sentir como en casa desde el momento en que entras.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+    <!-- <div class="d-flex flex-wrap p-5 row-sm-1">
         <div class="p-3">
             <div class="caracteristica p-3 card">
                 <h2>Comodidad</h2>
@@ -90,7 +137,9 @@
                 </p>
             </div>
         </div>
-    </div>
+    </div> -->
+
+
 
     <!-- Fichas -->
     <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 my-5">
@@ -156,7 +205,7 @@
             </div>
         </div>
     </div>
-    
+
     <!-- footer -->
     <div class="container-fluid">
         <div class="row p-5 bg-primary text-white">
